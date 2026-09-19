@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model weights & binary data
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+models/
+colab_models/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
